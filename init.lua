@@ -54,9 +54,16 @@ remapKey({'right_ctrl'}, 'n', keyCode('return'))
 remapKey({'right_ctrl'}, 'b', keyCode('delete'))
 remapKey({'right_ctrl'}, ';', keyCode('forwarddelete'))
 
--- 記号など
--- remapKey({'right_ctrl'}, 'o', keyCode('-'))
--- remapKey({'right_ctrl', 'shift'}, 'o', keyCode('-', {'shift'}))
-
--- remapKey({'right_ctrl'}, 'p', keyCode('plus'))
--- remapKey({'right_ctrl', 'shift'}, 'p', keyCode('plus', {'shift'}))
+-- Function
+remapKey({'right_ctrl'}, '1', keyCode('f1'))
+remapKey({'right_ctrl'}, '2', keyCode('f2'))
+remapKey({'right_ctrl'}, '3', keyCode('f3'))
+remapKey({'right_ctrl'}, '4', keyCode('f4'))
+remapKey({'right_ctrl'}, '5', keyCode('f5'))
+remapKey({'right_ctrl'}, '6', keyCode('f6'))
+remapKey({'right_ctrl'}, '7', keyCode('f7'))
+remapKey({'right_ctrl'}, '8', keyCode('f8'))
+remapKey({'right_ctrl'}, '9', keyCode('f9'))
+remapKey({'right_ctrl'}, '0', keyCode('f10'))
+remapKey({'right_ctrl'}, '-', keyCode('f11'))
+remapKey({'right_ctrl'}, '=', keyCode('f12'))
