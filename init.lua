@@ -46,8 +46,8 @@ remapKey({'right_ctrl', 'shift', 'cmd'}, 'l', keyCode('right', {'shift', 'cmd'})
 -- Home/End
 remapKey({'right_ctrl'}, 'a', keyCode('left', {'cmd'}))
 remapKey({'right_ctrl'}, 'f', keyCode('right', {'cmd'}))
-remapKey({'right_ctrl', 'shift'}, 'a', keyCode('home', {'shift'}))
-remapKey({'right_ctrl', 'shift'}, 'f', keyCode('end', {'shift'}))
+remapKey({'right_ctrl', 'shift'}, 'a', keyCode('left', {'cmd', 'shift'}))
+remapKey({'right_ctrl', 'shift'}, 'f', keyCode('right', {'cmd', 'shift'}))
 
 -- Enter/Backspace/Delete
 remapKey({'right_ctrl'}, 'n', keyCode('return'))
