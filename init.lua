@@ -67,3 +67,7 @@ remapKey({'right_ctrl'}, '9', keyCode('f9'))
 remapKey({'right_ctrl'}, '0', keyCode('f10'))
 remapKey({'right_ctrl'}, '-', keyCode('f11'))
 remapKey({'right_ctrl'}, '=', keyCode('f12'))
+
+-- その他
+-- right_ctrol + q = `
+remapKey({'right_ctrl'}, 'q', keyCode('`'))
